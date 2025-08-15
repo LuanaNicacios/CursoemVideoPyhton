@@ -1,0 +1,37 @@
+print('-='*30)
+print('Lista dos Times Brasileiros de 15/08/25:')
+times = ('Flamengo', 'Cruzeiro', 'Palmeiras', 'Bahia', 'Botafogo', 'Mirassol', 'São Paulo', 'Bragantino', 'Fluminense', 'Atlético-MG', 'Internacional', 'Ceará', 'Corinthians', 'Santos', 'Grêmio', 'Vitória', 'Vasco', 'Fortaleza', 'Juventude', 'Sport')
+print(times)
+print('-='*30)
+print('Os 5 primeiros colocados são:')
+print(times[0:5])
+print('-='*30)
+print('Os 4 últimos colocados são:')
+print(times[-4:])
+print('-='*30)
+print('Times em ordem alfabética: ')
+print(sorted(times))
+print('-='*30)
+print('EM 2025 A CHAPECOENSE NÃO ESTÁ NA SERIE A DO BRASILEIRÃO.')
+print('-='*30)
+print('O 8 COLOCADO ATUAL É:')
+print(f'O Bragantino. está atualmente na: {times.index("Bragantino")+1}º posiçao')
+#Guanabara Code
+'''
+times = ('Flamengo', 'Cruzeiro', 'Palmeiras', 'Bahia', 'Botafogo', 'Mirassol', 'São Paulo', 
+        'Bragantino', 'Fluminense', 'Atlético-MG', 'Internacional', 'Ceará', 'Corinthians', 'Santos', 
+        'Grêmio', 'Vitória', 'Vasco', 'Fortaleza', 'Juventude', 'Sport')
+print('-='*15)
+print(f'Lista de times: {times}')
+print('-='*15)
+print(f'Os 5 primeiros são: {times[0:5]}')
+print('-='*15)
+print(f'Os 4 últmos são: {times[-4:]}')
+print('-='*15)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-='*15)')
+A chapecoense não está na seire A então mostrarei o 8 colocado atual.
+print('-='*15)
+print(f'O Bragantino está na: {times.index("Bragantino")+1}º posiçao')
+print('-='*15))}')
+'''
